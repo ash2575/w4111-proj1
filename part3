@@ -160,5 +160,13 @@ HAVING COUNT(subtask.subtask_id) >= 2;
 GRANT INSERT, UPDATE, DELETE, SELECT ON folder.* AND object.*
 TO user
 
+#prints list of all folders
+SELECT name.folder
+FROM folder
+
+#prints list of all objects regardless of type
+SELECT name.object
+FROM object
+
 
 
