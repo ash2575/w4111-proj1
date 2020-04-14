@@ -156,3 +156,9 @@ JOIN consists_of
 ON consists_of.object_id = object.object_id
 GROUP BY object.name
 HAVING COUNT(subtask.subtask_id) >= 2;
+
+GRANT INSERT, UPDATE, DELETE, SELECT ON folder.* AND object.*
+TO user
+
+
+
