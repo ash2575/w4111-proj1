@@ -82,6 +82,16 @@ INSERT INTO app_user VALUES
 (‘0000000004’, ‘Kayla”, ‘amos.k@gmail.com’, 8192656134);
 INSERT INTO app_user VALUES
 (‘0000000005’, ‘Tigidankay’, ‘tk12@gmail.com’, 4261099256);
+(‘0000000006’, ‘Ada”, ‘ada.m@gmail.com’, 8796543434);
+INSERT INTO app_user VALUES
+(‘0000000007’, ‘Maria”, ‘mmedina@gmail.com’, 3239907657);
+INSERT INTO app_user VALUES
+(‘0000000008’, ‘Camila”, ‘cammed@gmail.com’, 1217862998);
+INSERT INTO app_user VALUES
+(‘0000000009’, ‘Alexa”, ‘alexa19@gmail.com’, 5657782424);
+INSERT INTO app_user VALUES
+(‘0000000010’, ‘Annie”, ‘am4562@gmail.com’, 5687236654);
+
 
 INSERT INTO folder VALUES
 (‘00001’, ‘School’);
@@ -89,6 +99,11 @@ INSERT INTO folder VALUES
 (‘00002’, ‘Work’);
 INSERT INTO folder VALUES
 (‘00003’, ‘Other’);
+INSERT INTO folder VALUES
+(‘00004’, ‘Projects’);
+INSERT INTO folder VALUES
+(‘00005’, ‘Extracurriculars’);
+
 
 INSERT INTO object VALUES
 (‘1’, ‘Meeting with Advisor’, 3032020);
